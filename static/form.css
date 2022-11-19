@@ -1,0 +1,88 @@
+/* https://colorhunt.co/palette/48383842855b90b77dd2d79f */
+body {
+    /* background: #42855B; */
+    background-color: #C6DCE4;
+    text-align: center;
+    color: #483838;
+}
+
+#sign-up-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #FFE6E6;
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 2px 5px black;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-items-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-input {
+    padding: 3px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 5px black;
+    height: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.submit-btn {
+    width: 40%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 5px black;
+    cursor: pointer;
+    background-color: #C6DCE4;
+    color: #483838;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: #FFE6E6;
+    color: #483838;
+}
+
+.description{
+    margin-top: 15px;
+}
+
+.pw-eye {
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    right: 45px;
+    z-index: 10001;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="static/index.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>MY COMPANY</title>
+</head>
+<body>
+    <!-- Intro section start -->
+    <section id="intro_section">
+        <div class="navbar">
+            <a class="navbar_item" id="brand_name" href="#">My Company</a>
+            <div class="navbar_cta_wrapper">
+                <a class="navbar_item" href="#intro_section">Home</a>
+                <a class="navbar_item" href="#about_section">About</a>
+                <a class="navbar_item" href="#products_section">Products</a>
+                <a class="navbar_item" href="#contact_section">Contact us</a>
+                <button type="button" class="round_btn login_btn" class="navbar_item">Login</button>
+                <button type="button" class="round_btn get_started_btn" class="navbar_item">Get Started</button>
+            </div>
+        </div>
+        <div class="intro_section_wrapper">
+            <div class="intro_item">
+                <div class="intro_item_header">Let's see what your data has to say</div>
+                <div class="cta_btn_wrapper">
+                    <button type="button" class="round_btn login_btn">Login</button>
+                    <button type="button" class="round_btn get_started_btn">Get Started</button>
+                </div>
+            </div>
+            <div class="intro_item">
+                <video class="intro_image" src="./static/assets/videos/company_intro.mp4" controls></video>
+            </div>
+        </div>
+    </section>
+    <!-- Intro section end -->
+    <!-- About section start -->
+    <section id="about_section" class="bg_diff">
+        <div class="about_section_wrapper">
+            <div class="about_item_wrapper">
+                <div class="about_item">
+                    <img class="intro_image" src="https://www.wework.com/ideas/wp-content/uploads/sites/4/2017/06/Web_150DPI-20190927_10th_Floor_Conference_Room_2_v1-1120x630.jpg" alt="Company Photo">
+                </div>
+            </div>
+            <div class="about_item_wrapper">
+                <div class="about_item">
+                    <div class="header_text">My Company</div>
+                    <div class="description">
+                        We are one of the most forward company in terms of data and its application in different areas.
+                    </div>
+                    <button type="button" class="round_btn get_started_btn">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+    <!-- Products section start -->
+    <section id="products_section">
+        <div class="section_header">Our Products</div>
+        <div class="products_section_wrapper">
+                <div class="product_item">
+                    <img class="product_img" src="https://productmanagementfestival.com/wp-content/uploads/2017/01/sell-your-product-online.jpg" alt="Product image">
+                    <div class="header_text">Credit management System</div>
+                    <div class="description">This is an awesome product</div>
+                </div>
+                <div id="hehe" class="product_item">
+                    <img class="product_img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-tech-2022-1643751399.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*" alt="Product image">
+                    <div class="header_text">Accessories</div>
+                    <div class="description">This is an awesome product</div>
+                </div>
+                <div class="product_item">
+                    <img class="product_img" src="https://i.insider.com/61c371ce3bbcdd0012a06398?width=700" alt="Product image">
+                    <div class="header_text">Laptops</div>
+                    <div class="description">This is an awesome product</div>
+                </div>
+                <div class="product_item">
+                    <img class="product_img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/amazon-tech-products-2021-1635430982.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*" alt="Product image">
+                    <div class="header_text">Other items</div>
+                    <div class="description">This is an awesome product</div>
+                </div>
+            </div>
+    </section>
+    <!-- Products section end -->
+    <!-- Contact section start -->
+    <section id="contact_section" class="bg_diff">
+        <div class="section_header">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contact_section_wrapper">
+            <div class="contact_section_left">
+                <div class="contact_informtion_wrapper">
+                    <div class="card_header">
+                        Contact Information
+                    </div>
+                    <div class="card_description">
+                        Feel free to reach out to us for any queries.
+                    </div>
+                    <div class="contact_cta_wrapper">
+                        <a href="tel:+9779862585910">
+                            <button class="contact_cta_btn">
+                                <img class="contact_cta_btn_img" src="./static/assets/images/phone_icon.png"> 
+                                <span class="contact_cta_text">(+977) 9862585910</span>
+                            </button>
+                        </a>
+                        <a href="mailto:kshetrism01@gmail.com">
+                            <button class="contact_cta_btn">
+                                <img class="contact_cta_btn_img" src="./static/assets/images/email_icon.png"> 
+                                <span class="contact_cta_text">info@mycompany.com</span>
+                            </button>
+                        </a>
+                        <a href="">
+                            <button class="contact_cta_btn">
+                                <img class="contact_cta_btn_img" src="./static/assets/images/address_icon.png"> 
+                                <span class="contact_cta_text">Babarmahal, Kathmandu</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_section_right">
+                <form action="#" class="contact_form" onsubmit="return submitMessage()">
+                    <div class="form_items_wrapper">
+                            <div class="form_item">
+                                <label for="name" class="form_label">Name</label>
+                                <input class="form_input" type="text" id="name" name="Name" placeholder="John Doe">
+                            </div>
+                            <div class="form_item">
+                                <label for="email" class="form_label">Email</label>
+                                <input class="form_input" type="text" id="email" name="Email" placeholder="sth@gmail.com">
+                            </div>
+                            <div class="form_item">
+                                <label for="phone" class="form_label">Phone</label>
+                                <input class="form_input" type="text" id="phone" name="Phone" placeholder="9898989898">
+                            </div>
+                            <div class="form_item">
+                                <label for="message" class="form_label">Message</label>
+                                <textarea id="message" rows="3" cols="40" placeholder="Type here"></textarea>
+                            </div>
+                            <div class="form_item" id="contact_submit_btn_wrapper">
+                                <input class="form_input" id="contact_submit_btn" type="submit">
+                            </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section end -->
+    <!-- Footer section start -->
+    <section id="footer_section">
+        <div class="footer_section_wrapper">
+            <div class="footer_item_wrapper">
+                <img class="company_logo" src="https://thumbs.dreamstime.com/b/business-company-logo-27438246.jpg" alt=" website logo">
+                <div class="description">This is the description of the company.</div>
+            </div>
+            <div class="footer_item_wrapper">
+                <h3>Contact us</h3>
+                <ul>
+                    <li>Address: Babarmahal 11, Kathmandu</li>
+                    <li>Phone: (+977) 9862585910</li>
+                    <li>Email: 020bim056@sxc.edu.np</li>
+                </ul>
+            </div>
+            <div class="footer_item_wrapper">
+                <h3 >Useful Links</h3>
+                <ul>
+                    <li><a>Products</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Terms and Condition</a></li>
+                    <li><a>Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">Copyright cc @ mycompany.com</div>
+    </section>
+    <!-- Footer section end -->
+    <script src="static/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/form.css" type="text/css">
+    <title>Login</title>
+</head>
+<body>
+    <form id="sign-up-form" action="index.html" method="get" onsubmit="return validateLoginForm()">
+        <div class="header">
+            Login to My Company
+        </div>
+        <div class="form-items-wrapper">
+            <div class="form-item">
+                <label class="form-label" for="userName">username</label>
+                <input class="form-input" type="text" id="userName">
+            </div>
+            <div class="form-item">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-input" type="password" id="password">
+                <img class="pw-eye eye-closed" src="./static/assets/images/closed_eye.png">
+            </div>
+            <div class="form-item">
+                <input class="submit-btn" type="submit" value="Login">
+            </div>
+        </div>
+        <div class="description">
+            Don't have an account? <a href="sign-up-form.html">Sign up</a>
+        </div>
+    </form>
+    <script type="text/javascript" src="./static/form.js"></script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+.bg_diff {
+    background-color: #FFE6E6;
+}
+
+section {
+    margin: 50px 0;
+    text-align: center;
+    padding: 20px;
+}
+
+.section_header {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header_text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card_header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card_description {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.description {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+#intro_section {
+    margin-top: 0px;
+}
+
+.navbar {
+    background-color: #C6DCE4;
+    padding: 10px;
+    height: 24px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.navbar_item {
+    padding: 0px 10px 0px;
+}
+
+.navbar_cta_wrapper {
+    display: flex;
+    margin-left: auto;
+    padding-right: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+#brand_name {
+    float: left;
+    font-size: 20px;
+}
+
+.round_btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #DAEAF1;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+    margin: 6px;
+}
+
+.round_btn:hover {
+    cursor: pointer;
+    background-color: #F2D1D1;
+}
+
+.get_started_btn {
+    background-color: #C6DCE4;
+}
+
+.login_btn {
+    background-color: #C6DCE4;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.intro_section_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.intro_item {
+    width: 48%;
+}
+
+.intro_item_header {
+    font-size: 60px;
+    margin-right: 20px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.intro_image {
+    width: 100%;
+    height: 100%;
+}
+
+.cta_btn_wrapper{
+ text-align: left;
+}
+
+.about_section_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about_item_wrapper {
+    width: 48%;
+}
+
+.products_section_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: space-evenly;
+}
+
+.product_item {
+    display: inline-block;
+    width: 24%;
+    cursor: pointer;
+    background-color: #DAEAF1;
+    margin: 10px;
+}
+
+.product_item:hover {
+    transition-delay: 150ms;
+    transition-duration: 0.5s;
+    font-size: 20px;
+    width: 30%;
+    box-shadow: 5px 10px #F2D1D1;
+}
+
+.product_img {
+    width: 70%;
+    margin: 20px;
+}
+
+.contact_section_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.contact_section_left {
+    width: 40%;
+}
+
+.contact_section_heading{
+    display: block;
+}
+
+.contact_informtion_wrapper {
+    text-align: left;
+    margin: 10px;
+}
+
+.contact_cta_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_cta_btn {
+    background-color: #FFE6E6;
+    width: 80%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+
+.contact_cta_btn_img {
+    width: 10%;
+}
+
+.contact_section_right {
+    width: 40%;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_items_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.form_item {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.form_label {
+    font-weight:bold;
+    float: left;
+}
+
+.form_input {
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 3px;
+    height: 20px;
+    float: right;
+    width: 200px;
+}
+
+#message_input {
+    width: 100%;
+    height: 50px;
+}
+
+#contact_submit_btn_wrapper {
+    width: 50%;
+    margin: 0 auto 20px auto;
+}
+
+#contact_submit_btn{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    background-color: aqua;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#contact_submit_btn:hover {
+    background-color: #C6DCE4;
+}
+
+.test_image {
+    width: -webkit-fill-available;
+}
+
+#footer_section {
+    background-color: #C6DCE4;
+    margin-bottom: 0px;
+}
+
+.company_logo {
+    width: 100px;
+}
+
+.footer_section_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_item_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 20%;
+    text-align: left;
+}
+
+.copyright{
+    opacity: 0.7;
+ }
